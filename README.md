@@ -1,3 +1,7 @@
+# React 100 Hackathon App - The Perfect Lunch
+
+This . You can add, delete and edit to do items as well as mark them as complete. You can visit the URL at: 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +70,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Authors
+
+- **Frank Barros** - [frankdb](https://github.com/frankdb)

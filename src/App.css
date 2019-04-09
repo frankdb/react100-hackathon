@@ -1,33 +1,49 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Fredoka+One|Poppins|Montserrat');
+
+body {
+  background: #CC95C0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.title {
   color: white;
+  padding-top: 50px;
+  font-family: 'Fredoka One', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.myform {
+  align-self: center;
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.location {
+  align-self: center;
+  background-color: white;
+  padding: 20px;
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.results {
+  align-self: center;
+  /* display: flex;
+  flex-wrap: wrap; */
+  background-color: white;
+  padding: 20px;
+  width: 1000px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
