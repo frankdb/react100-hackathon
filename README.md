@@ -1,6 +1,6 @@
 # React 100 Hackathon App - The Perfect Lunch
 
-This . You can add, delete and edit to do items as well as mark them as complete. You can visit the URL at: 
+The goal of this app is to help you find the spot to have the perfect lunch. It pulls restaurant information from the Zomato API and weather data from Open Weather API. It has simple form validation and is styled with CSS flexbox and Bootstrap.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
